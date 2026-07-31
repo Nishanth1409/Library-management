@@ -81,7 +81,7 @@
     "proxy-addr": "^2.0.7",
     "pstree.remy": "^1.1.8",
     "punycode": "^2.3.1",
-    "qs": "^6.15.3",
+    "qs": "^6.14.0",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.2",
     "readdirp": "^3.6.0",
@@ -124,10 +124,5 @@
     "url": "https://github.com/Nishanth1409/Library-management/issues"
   },
   "homepage": "https://github.com/Nishanth1409/Library-management#readme",
-  "overrides": {
-    "brace-expansion": "^1.1.12",
-    "qs": "^6.14.0",
-    "minimatch": "^3.1.2",
-    "picomatch": "^2.3.1"
-  }
+  "overrides": {}
 }
