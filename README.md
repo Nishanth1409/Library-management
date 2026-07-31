@@ -1,35 +1,68 @@
-# Routes & Endpoints
+<div align="center">
 
-## Users
+# Library Management
 
-POST: Create a new User
-GET: Get all list of users
+**Books, members, and issue/return — a practical Node.js library system.**
 
-## Users ID
+</div>
 
-GET: Get a user by their ID
-PUT: Update a user by ID
-DELETE: Delete a user by ID {(check if he/she still has an issued book) && (check if there is any fine to be collected)}
+<div align="center">
+  <img src="docs/screenshots/hero.png" alt="Library Management" width="100%" />
+</div>
 
-## Books
+---
 
-GET: Get all books
-POST: Create/Add a new book
+## Why this exists
 
-## Books ID
+A hands-on Node/Express project for everyday library operations: catalog, members, and borrowing workflows.
 
-GET: Get a book by its ID
-PUT: Update a book by ID
+---
 
-## Books Issued
+## What you can do
 
-GET: Get all issued books
+- Manage books and members
+- Issue and return flows
+- REST-style controllers and routes
+- Local JSON/data layer for practice
 
-## Subscription Types
+---
 
-Basic (3 months)
-Standard (6 months)
-Premium (12 months)
+## Tech stack
 
-sequel
-sql
+| Layer | Technology |
+| --- | --- |
+| Data | Local data / controllers |
+| Backend | Node.js · Express |
+
+---
+
+## Getting started
+
+```bash
+git clone https://github.com/Nishanth1409/Library-management.git
+cd Library-management
+npm install
+node server.js
+```
+
+Create a `.env` if the project expects one (see existing env examples). Do not commit secrets.
+
+---
+
+## Live & credits
+
+| | |
+| :--- | :--- |
+| **Author** | [Nishanth K R](https://github.com/Nishanth1409) |
+| **Repo** | [Nishanth1409/Library-management](https://github.com/Nishanth1409/Library-management) |
+| **Portfolio** | [nkrportfolio.vercel.app](https://nkrportfolio.vercel.app) |
+
+---
+
+<div align="center">
+
+*Son of a farmer · always a farmer.*
+
+[GitHub](https://github.com/Nishanth1409) · [Portfolio](https://nkrportfolio.vercel.app)
+
+</div>
