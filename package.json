@@ -10,7 +10,6 @@
     "balanced-match": "^1.0.2",
     "binary-extensions": "^2.3.0",
     "body-parser": "^1.20.3",
-    "brace-expansion": "^1.1.12",
     "braces": "^3.0.3",
     "bson": "^6.10.0",
     "bytes": "^3.1.2",
@@ -124,5 +123,7 @@
     "url": "https://github.com/Nishanth1409/Library-management/issues"
   },
   "homepage": "https://github.com/Nishanth1409/Library-management#readme",
-  "overrides": {}
+  "overrides": {
+    "brace-expansion": "^5.0.9"
+  }
 }
